@@ -90,10 +90,6 @@ ENV/
 env.bak/
 venv.bak/
 
-# Files
-
-# Folders
-
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -106,3 +102,24 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Files
+
+# Folders
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# config file
+config.py
